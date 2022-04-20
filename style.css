@@ -1,0 +1,109 @@
+body{
+    background-color: rgb(22, 22, 22);
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(214, 214, 214);
+    font-weight: bold;
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+    text-shadow: 20px black;
+}
+
+textarea{
+    width: 480px;
+    height: 150px;
+}
+
+#enviar{
+    font-weight: bold;
+    width:100px;
+    height: 25px;
+}
+
+#link-music{
+    color: #18d85f;
+    font-weight: bold;
+}
+
+#link-you{
+    color: #882f2c;
+    font-weight: bold;
+}
+
+#img-topo{
+    border: 3px solid rgb(199, 199, 199);
+    width: 500px;
+    display: block;
+    margin: auto;
+}
+
+#principal{
+    color: aliceblue;
+    padding: 10px;
+    background: rgb(29, 27, 27) ;
+}
+
+#topo{
+    background-color: rgb(83, 81, 78);
+    padding: 10px;
+    border-radius: 20px;
+}
+
+#menu{
+    text-align: center;
+    padding: 10px;
+}
+
+#conteudo{
+    background-color: rgb(97, 88, 88);
+    padding: 15px;
+    border-radius: 20px;
+}
+
+#macaco{
+    margin-right: 500px;
+    width: 250px;
+    border-radius: 15px;
+    border: 4px solid aliceblue;
+}
+
+.spotify-you{
+    width: 65px;
+}
+
+#rodape{
+    text-align: center;
+    font-weight: bold;
+
+}
+
+#zoeira{
+    width: 325px;
+}
+
+
+/*Usar isso aqui na parte de música*/
+.digitacao{
+    width: 28%;
+    animation: digitacao 4s steps(60), cursor .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid ;
+}
+@keyframes digitacao{
+    from{
+        width: 0;
+    }
+}
+@keyframes cursor{
+    50%{
+        border-color: transparent;
+    }
+}
